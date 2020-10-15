@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="stylesheet.css">
+      <script src="popup.js"></script>
+    </head>
+    <body>
+      <p>
+        <input type="checkbox" id="activated" placeholder="60"> activate Blocker
+      </p>
+      <p>
+        Work related websites: <br>
+        <textarea class="time" id="time_sites" placeholder="Work related URLs"></textarea>
+      </p>
+      <p>
+        Block websites for <input type="number" id="blocking_time" value="1" required min="1" max="1439"> minutes on: <br>
+        <input type="checkbox" id="1" class="block_days">Mo
+        <input type="checkbox" id="2" class="block_days">Tu
+        <input type="checkbox" id="3" class="block_days">We
+        <input type="checkbox" id="4" class="block_days">Th
+        <input type="checkbox" id="5" class="block_days">Fr
+        <input type="checkbox" id="6" class="block_days">Sa
+        <input type="checkbox" id="0" class="block_days">Su
+        <textarea class="block" id="block_sites" placeholder="Block URLs"></textarea>
+
+      </p>
+    </body>
+  </html>

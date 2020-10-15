@@ -1,0 +1,11 @@
+* {
+    display: inline-block;
+}
+
+#blocking_time {
+    width: 3em;
+}
+
+textarea {
+    width: 20em;
+}
